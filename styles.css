@@ -1,10 +1,12 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 body {
-   font-family: Arial, 'Trebuchet MS';
+   font-family: 'Helvetica', sans-serif;
+   background-color: #3057E1;
+   
 }
 
 header {
-   background-color: #f8f9fa;
+   
    padding: 20px;
    text-align: center;
 }
@@ -13,23 +15,25 @@ section {
    margin: 20px 0;
 }
 
-h1, h2 {
-   color: #6c757d;
+h1, h2, h3, ul, p {  
+   font-family: 'Helvetica', sans-serif;
+   text-align: left;
+   color: #CED8F7;
+}
+h1{
+   font-size: 90pt;
 }
 
  h3{
    padding-left: 5%;
 }
-p {
-   color: #495057;
-   
-}
+
 ul{
    padding-left: 10%;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-   background-color: #333;
+   background-color: #4A6DE5;
    overflow: hidden;
  }
  
