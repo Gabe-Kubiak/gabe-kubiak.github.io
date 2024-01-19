@@ -3,6 +3,7 @@ body {
    font-family: 'Helvetica', sans-serif;
    /* background-color: #3057E1; */
    background-image: radial-gradient(circle, #6b8eff,#3057E1);
+   border: 2px solid #ffffff;
 }
 
 header {
@@ -75,3 +76,22 @@ ul{
    vertical-align: top;
    font-size: 8pt;
  }
+
+ body {
+   position: relative;
+  
+}
+
+body::before {
+   content: '';
+   position: absolute;
+   top: 50;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   pointer-events: none; /* Allows clicks to go through the pseudo-element */
+   background-image: repeating-linear-gradient(90deg, transparent, transparent 30px, #d5d5d54a 30px, #d5d5d54a 31px),
+   repeating-linear-gradient(0deg, transparent, transparent 30px, #d5d5d54a 30px, #d5d5d54a 31px);
+
+}
