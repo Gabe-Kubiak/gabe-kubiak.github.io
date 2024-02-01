@@ -95,3 +95,15 @@ body::before {
    repeating-linear-gradient(0deg, transparent, transparent 30px, #d5d5d54a 30px, #d5d5d54a 31px);
 
 }
+
+.carousel{
+   width: 800px;
+   height: 480px;
+   margin:auto;
+}
+
+
+.carousel-inner{
+   width: 800px;
+   height: 480px;
+}
